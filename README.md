@@ -64,6 +64,20 @@ python predict_image.py --image path_to_image
 This will output whether the image is classified as Normal or Pneumonia.
 
 ##Model Architecture
+📊 Model Architecture
+The model is built using a Convolutional Neural Network (CNN) with the following layers:
+
+Conv2D layers for feature extraction
+
+MaxPooling2D layers to reduce spatial dimensions
+
+Dense layers for classification
+
+Dropout layers for regularization
+
+The model is trained using the Adam optimizer and binary crossentropy loss for binary classification.
+
+
 The model is built using a Convolutional Neural Network (CNN) with the following layers:
 
 Conv2D layers for feature extraction
